@@ -1,0 +1,114 @@
+
+header{
+    width: 100%;
+    z-index: 10;
+    background: transparent;
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+   
+   
+    .col-4{
+        .second-list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style-type: none;
+            padding-left: 100px;
+        }
+        .navigation-list-second{
+            display: flex;
+            flex-direction: end;
+            list-style-type: none;
+            text-decoration: none;
+            margin: 0 auto;
+            padding: 0;
+
+           }
+    .col-2{
+        display: flex;
+        flex-wrap: wrap;
+      
+    }       
+    }
+    .logo{
+        font-size: $font-16;
+    }
+    .container {
+        max-width: 1550px;
+        display: flex;
+        justify-content: space-between;
+        
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+            width: 100%;}
+    }
+    .navigation{
+        
+        .navigation-list{
+            display: flex;
+            list-style-type: none;
+            
+          
+            li{
+                text-decoration: none;
+                color: #333;
+                font-weight: 600;
+                transition: color 0.3s;
+                margin-right:15px;
+                &:last-child{
+                    margin: 0;
+                }
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    .wrapper-btn{
+        display: flex;
+        flex-direction:row;
+        padding-top: 20px;
+        padding-left: 50px;
+       
+        gap: 10px;
+        .primary-btn{
+            @include primaryBtn;
+        }
+        .secondary-btn{
+            background-color: transparent;
+            border-color: $white-color;
+            padding: 16px;
+            
+        }
+    }
+}
+
+ @media (max-width: 1200px) {
+    header {
+        width: 83.33%;
+        margin: 0 auto;
+      .container {
+         flex-direction: column;
+         align-items: center;
+        
+        .row {
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        .col-2 {
+          flex: 0 0 100%;
+          text-align: center;
+          
+          .logo {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    
+  }

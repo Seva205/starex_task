@@ -1,0 +1,36 @@
+#transport {
+  .container {
+    .title {
+      
+      .firsttext {
+        font-size: 80px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 54, 78, .2);
+        line-height: 1.2;
+      }
+      
+      .secndtext {
+        font-size: 32px;
+        font-family: RM;
+        font-weight: 600;
+        color: #003087;
+        padding-left: 30px;
+     
+      }
+      
+    }
+    .textbody {
+        
+    span{
+        font-size:20px;
+        letter-spacing: 1px;
+       word-spacing: 3px;
+        color: black;
+          
+        }
+
+  }
+}
+}
+

@@ -1,0 +1,65 @@
+#inform-slider {
+    .container {
+      max-width: 1700px;;
+      height: 100vh;
+      background-image: url(https://starex-assets.fra1.cdn.digitaloceanspaces.com/media/pictures/sayt_banner_usa_china_turkey_1.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+  
+      .row {
+        .col-12 {
+          .backroundpln {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+  
+            h6 {
+              color: azure;
+              font-size: 30px;
+              font-weight: 700;
+              margin: 0;
+              padding: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      height: 50vh;
+
+      .row {
+        .col-12 {
+          .backroundpln {
+            h6 {
+              font-size: 20px;
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      height: 40vh;
+
+      .row {
+        .col-12 {
+          .backroundpln {
+            h6 {
+              font-size: 16px;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+  }

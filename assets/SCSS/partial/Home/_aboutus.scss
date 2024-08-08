@@ -1,0 +1,136 @@
+#aboutus {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+  
+    .container {
+      .abt-us {
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          
+  
+          .col-6 { width: 50%;
+            .h2{font-size: 42px;
+                font-weight: 700;
+                margin-bottom: 20px;}
+            
+              
+  
+              p {
+                font-size: 1.2rem;
+                color: #666;
+                margin-bottom: 20px;
+              }
+  
+              div {
+                display: flex;
+               flex-direction: column;
+                
+                svg {
+                  margin-right: 10px;
+                  
+                 
+                }
+  
+                h6 {
+                
+                  font-weight: 700;
+                font-size: 18px;
+                  color:rgb(61, 61, 61);
+                }
+  
+                p {
+                  font-size: 1rem;
+                  color:$secondry-color;
+                }
+              }
+            }
+  
+            &:last-child {
+              display: flex;
+            //   justify-content: center;
+  
+              img {
+                max-width: 100%;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+              }
+            }
+          }
+        }
+      }
+    }
+  
+  
+  @media (max-width: 768px) {
+    #aboutus {
+      .container {
+        .abt-us {
+          .row {
+            flex-direction: column;
+  
+            .col-6 {
+              &:first-child {
+                text-align: center;
+  
+                div {
+                  justify-content: center;
+                }
+              }
+  
+              &:last-child {
+                margin-top: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #aboutus {
+      .container {
+        .abt-us {
+          .row {
+            .col-6 {
+              &:first-child {
+                h2 {
+                  font-size: 2rem;
+                }
+  
+                p {
+                  font-size: 1rem;
+                }
+  
+                div {
+                  flex-direction: column;
+                  align-items: center;
+                  text-align: center;
+  
+                  svg {
+                    margin-bottom: 10px;
+                  }
+  
+                  h6 {
+                    font-size: 1rem;
+                  }
+  
+                  p {
+                    font-size: 0.9rem;
+                  }
+                }
+              }
+  
+              &:last-child {
+                img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

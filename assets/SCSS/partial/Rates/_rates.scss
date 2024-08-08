@@ -1,0 +1,110 @@
+#rates {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+
+  .col-12 {
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .countryflg {
+      background-image: url(https://starex.az/_next/static/image/assets/images/tariff-cover.298b3f915b038ef1b1128a33e02beb83.png);
+      background-repeat: no-repeat;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      justify-content: center;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      .flag {
+        display: inline;
+        padding: 80px;
+      }
+    }
+  }
+
+  button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    .icon {
+      width: 30px;
+      height: 30px;
+      background-size: cover;
+      margin-right: 10px;
+    }
+
+    &.active {
+      background-color: #e74c3c;
+    }
+  }
+
+  .rate,
+  .rate-2 {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1550px;
+  margin: 0 auto;
+  padding: 20px;
+}
+a .icon {
+  display: inline-block;
+  width: 40px;
+  height: 25px;
+  background-size: cover;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.table-price {
+  margin-left: 150px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+
+  gap: 200px;
+}
+
+.table-price ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.table-price li {
+  margin-bottom: 10px;
+}
+
+.table-header {
+  flex: 1;
+}
+
+.standard-tariffs,
+.liquids-dangerous {
+  flex: 1;
+}

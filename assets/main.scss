@@ -1,0 +1,79 @@
+@import "./SCSS/utils/variables";
+@import "./SCSS/utils/mixins";
+@import "./SCSS/layout/header";
+@import "./SCSS/partial/Home/inform";
+@import "./SCSS/partial/Home/howworks";
+@import "./SCSS/partial/Home/map";
+@import "./SCSS/partial/Home/services";
+@import "./SCSS/partial/Home/aboutus";
+@import "./SCSS/partial/Home/calculator";
+@import "./SCSS/partial/Home/mobileapl";
+@import "./SCSS/partial/Home/followus";
+@import "./SCSS/layout/footer";
+@import "./SCSS/layout/headrmain";
+@import "./SCSS/partial/transportpg/transport";
+@import "./SCSS/partial/Services/servis";
+@import "./SCSS/partial/Services/image";
+@import "./SCSS/partial/Rates/rates";
+@import "./SCSS/partial/Rates/rates";
+@import "./SCSS/partial/contact/contactable";
+@import "./SCSS/partial/contact/contact";
+@import "./SCSS/partial/Home/news";
+@import "./SCSS/partial/news/newsend";
+@import "./SCSS/partial/Rates/table";
+ 
+
+*{
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1550px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+.col-6{
+    width: calc(100% / 12 * 6);
+}
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+.col-3{
+    width: calc(100% / 12 * 3);
+}
+.col-12{
+    width: calc(100%/12 * 12);
+}
+@media (min-width: 576px) {
+    .container {
+     max-width: 540px;
+   }
+ }
+ @media (min-width: 768px) {
+    .container {
+     max-width: 720px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     max-width: 960px;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     max-width: 1140px;
+   }
+ }
+ @media (min-width: 1400px) {
+.container {
+     max-width: 1320px;
+   }
+ }

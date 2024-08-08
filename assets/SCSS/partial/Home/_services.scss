@@ -1,0 +1,66 @@
+#services {
+  .container {
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+
+      .starexmmc {
+        margin-bottom: 40px;
+
+        h2 {
+          font-size:2.5rem;
+        
+          font-weight: 700;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size:19px ;
+          color: #666;
+          margin-bottom: 0;
+        }
+      }
+
+      .col-12 {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card-1 {
+          flex: 0 0 22%;
+          max-width: 22%;
+          background: #fff;
+
+          margin: 10px;
+
+          svg {
+            margin-bottom: 15px;
+          }
+
+          h6 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+          }
+
+          p {
+            font-size: 1rem;
+            color: $secondry-color;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:990px){
+  #services{
+    .starexmmc{
+      .h2{
+        font-size: 20px;
+      }
+      .p{font-size: 9px;
+
+      }
+    }
+  }
+}
+
